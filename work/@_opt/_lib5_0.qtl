@@ -1,0 +1,412 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/modelsim/examples
+T_opt
+!s110 1608430448
+V@Pcll=X64<o0;Zj]glo2]1
+04 12 4 work LedLightning fast 0
+=1-2cf05d851642-5fdeb370-28e-1d28
+o-quiet -auto_acc_if_foreign -work work
+n@_opt
+OL;O;10.4;61
+vLedLightning
+Z0 DXx6 sv_std 3 std 0 22 WmjPaeP=7F5?QFXzJ>D[Q2
+Z1 !s110 1608430431
+!i10b 1
+!s100 EJ8;[=gGKS@T`AmQV?BVX1
+I>jOhCYUWDGE6Hkzl:;EYX2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+!s105 led_main_sv_unit
+S1
+Z3 dC:/modelsim/led_light
+w1608430418
+8C:/modelsim/led_light/led_main.sv
+FC:/modelsim/led_light/led_main.sv
+L0 1
+Z4 OL;L;10.4;61
+r1
+!s85 0
+31
+!s108 1608430431.908000
+!s107 C:/modelsim/led_light/led_main.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/modelsim/led_light/led_main.sv|
+!i113 0
+Z5 o-work work -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+n@led@lightning
+vLightning_Testbench
+R0
+R1
+!i10b 1
+!s100 `>3HZababW@m07D1QVe<k0
+IGkX2ilcfgNT0V]`eN1i[m0
+R2
+!s105 led_tb_sv_unit
+S1
+R3
+w1608430108
+8C:/modelsim/led_light/led_tb.sv
+FC:/modelsim/led_light/led_tb.sv
+L0 3
+R4
+r1
+!s85 0
+31
+!s108 1608430431.972000
+!s107 C:/modelsim/led_light/led_tb.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/modelsim/led_light/led_tb.sv|
+!i113 0
+R5
+n@lightning_@testbench
+m255
+K4
+z2
+!s8c locked
+!s95 MTI
+cModel Technology Builtin Library
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+d/u/qa/buildsites/10.4/builds/linux/modeltech
+XMTI_CSTDLIB
+Z0 DXx4 work 3 STD 0 22 gZSG^8kD0`f^P@ZVeQZ>I2
+!i10b 1
+V;aIeESM388X`KKkJ0LZmT3
+Z1 OL;L;10.4;61
+r1
+!s85 0
+31
+Z2 OP;L;10.4;61
+!s100 Mo>5fnoPI`cO[DF2^KH=E2
+I;aIeESM388X`KKkJ0LZmT3
+S1
+!s86 1
+Z3 d$MODEL_TECH/..
+Z4 w1417583462
+Z5 8verilog_src/dpi_cpack/dpi_cpackages.sv
+Z6 Fverilog_src/dpi_cpack/dpi_cpackages.sv
+Z7 L0 17
+Z8 OE;L;10.4;61
+Z9 !s108 1417588116.176540
+Z10 !s107 verilog_src/dpi_cpack/dpi_cpackages.sv|
+Z11 !s90 -debug|-u|-sv|-s|-work|sv_std|-dirpath|$MODEL_TECH/..|verilog_src/dpi_cpack/dpi_cpackages.sv|
+!i113 1
+Z12 o-debug -u -sv -s -work sv_std -dirpath {$MODEL_TECH/..} -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+n@m@t@i_@c@s@t@d@l@i@b
+Xmti_cstdlib
+Z13 DXx4 work 3 std 0 22 WmjPaeP=7F5?QFXzJ>D[Q2
+!i10b 1
+VmDBN_N8V0@_aTz`nQ^[9n2
+R1
+r1
+!s85 0
+31
+R2
+!s100 m;mJYATadmZnJMG7^1?><2
+ImDBN_N8V0@_aTz`nQ^[9n2
+S1
+R3
+R4
+R5
+R6
+R7
+R8
+Z14 !s108 1417588116.105856
+R10
+Z15 !s90 -debug|-sv|-s|-work|sv_std|-dirpath|$MODEL_TECH/..|verilog_src/dpi_cpack/dpi_cpackages.sv|
+!i113 1
+Z16 o-debug -sv -s -work sv_std -dirpath {$MODEL_TECH/..} -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+XMTI_CSTRING
+R0
+!i10b 1
+V0b^Gj=58zh1D<i>mSi7EN3
+R1
+r1
+!s85 0
+31
+R2
+!s100 L6GP^^R4e0Kz?0<:Fb5;z1
+I0b^Gj=58zh1D<i>mSi7EN3
+S1
+!s86 1
+R3
+R4
+R5
+R6
+Z17 L0 28
+R8
+R9
+R10
+R11
+!i113 1
+R12
+n@m@t@i_@c@s@t@r@i@n@g
+Xmti_cstring
+R13
+!i10b 1
+VeCHo_gAMoLUFLQBghIiHN3
+R1
+r1
+!s85 0
+31
+R2
+!s100 THKYZQ9cE:4a163M1ME=i1
+IeCHo_gAMoLUFLQBghIiHN3
+S1
+R3
+R4
+R5
+R6
+R17
+R8
+R14
+R10
+R15
+!i113 1
+R16
+XMTI_DEBUG
+R0
+!i10b 1
+VBDO8@aQYTAmCeI2EOWJLg0
+R1
+r1
+!s85 0
+31
+R2
+!s100 1HCenhP=Gk;P90i77POeB1
+IBDO8@aQYTAmCeI2EOWJLg0
+S1
+!s86 1
+R3
+R4
+R5
+R6
+Z18 L0 47
+R8
+R9
+R10
+R11
+!i113 1
+R12
+n@m@t@i_@d@e@b@u@g
+Xmti_debug
+R13
+!i10b 1
+V_^1fHnl?a<7Y;zOJ<`Zb_0
+R1
+r1
+!s85 0
+31
+R2
+!s100 e<Oo;?bJ_8`DY]gDzTD_A3
+I_^1fHnl?a<7Y;zOJ<`Zb_0
+S1
+R3
+R4
+R5
+R6
+R18
+R8
+R14
+R10
+R15
+!i113 1
+R16
+XMTI_FCOVER
+R0
+!i10b 1
+V=IXf1[Y[Gog2X^3fgJLUY1
+R1
+r1
+!s85 0
+31
+R2
+!s100 >l2@]COIE`Th;B4NX7Gk@3
+I=IXf1[Y[Gog2X^3fgJLUY1
+S1
+!s86 1
+R3
+R4
+Z19 8verilog_src/mti_sv/fcover.sv
+Z20 Fverilog_src/mti_sv/fcover.sv
+L0 5
+R8
+!s108 1417588116.416623
+Z21 !s107 verilog_src/mti_sv/fcover.sv|
+!s90 -debug|-u|-sv|-s|-work|sv_std|-dirpath|$MODEL_TECH/..|verilog_src/mti_sv/fcover.sv|
+!i113 1
+R12
+n@m@t@i_@f@c@o@v@e@r
+Xmti_fcover
+R13
+!i10b 1
+VIdGfYIP3>GAg4cc7WhnT53
+R1
+r1
+!s85 0
+31
+R2
+!s100 BI4_][IRd`0JY_lLgEDF80
+IIdGfYIP3>GAg4cc7WhnT53
+S1
+R3
+R4
+R19
+R20
+L0 5
+R8
+!s108 1417588116.366859
+R21
+!s90 -debug|-sv|-s|-work|sv_std|-dirpath|$MODEL_TECH/..|verilog_src/mti_sv/fcover.sv|
+!i113 1
+R16
+XMTI_FLI
+R0
+!i10b 1
+VEBb>Ze@`PEY8gNf?L??Sd1
+R1
+r1
+!s85 0
+31
+R2
+!s100 l7m^V=N3eC_khKCOJ95:o3
+IEBb>Ze@`PEY8gNf?L??Sd1
+S1
+!s86 1
+R3
+R4
+R5
+R6
+L0 4
+R8
+R9
+R10
+R11
+!i113 1
+R12
+n@m@t@i_@f@l@i
+Xmti_fli
+R13
+!i10b 1
+V5IclEOC6>oZ`7YFdDkF>^3
+R1
+r1
+!s85 0
+31
+R2
+!s100 :Phg7_BD2gc55?cdk1?WR2
+I5IclEOC6>oZ`7YFdDkF>^3
+S1
+R3
+R4
+R5
+R6
+L0 4
+R8
+R14
+R10
+R15
+!i113 1
+R16
+XMTI_SCDPI
+R0
+!i10b 1
+V46j2JXkY751=FMo^ke9ME0
+R1
+r1
+!s85 0
+31
+R2
+!s100 G8e@bBMTl4dIdaEO6g2`n0
+I46j2JXkY751=FMo^ke9ME0
+S1
+!s86 1
+R3
+R4
+Z22 8verilog_src/dpi_cpack/scdpi.sv
+Z23 Fverilog_src/dpi_cpack/scdpi.sv
+L0 1
+R8
+!s108 1417588116.309245
+Z24 !s107 verilog_src/dpi_cpack/scdpi.sv|
+!s90 -debug|-u|-sv|-s|-work|sv_std|-dirpath|$MODEL_TECH/..|verilog_src/dpi_cpack/scdpi.sv|
+!i113 1
+R12
+n@m@t@i_@s@c@d@p@i
+Xmti_scdpi
+R13
+!i10b 1
+V@2e@Aj@]lNh3?<EKLMUC82
+R1
+r1
+!s85 0
+31
+R2
+!s100 gg1o<5<OYfFmFTbih<ffm3
+I@2e@Aj@]lNh3?<EKLMUC82
+S1
+R3
+R4
+R22
+R23
+L0 1
+R8
+!s108 1417588116.251144
+R24
+!s90 -debug|-sv|-s|-work|sv_std|-dirpath|$MODEL_TECH/..|verilog_src/dpi_cpack/scdpi.sv|
+!i113 1
+R16
+XSTD
+!i10b 1
+VgZSG^8kD0`f^P@ZVeQZ>I2
+R1
+r1
+!s85 0
+31
+R2
+!s100 2G>c4KA`Nc]?E[JL1>I[?3
+IgZSG^8kD0`f^P@ZVeQZ>I2
+S1
+!s86 1
+R3
+R4
+Z25 8verilog_src/std/std.sv
+Z26 Fverilog_src/std/std.sv
+L0 6
+R8
+!s108 1417588116.046078
+Z27 !s107 verilog_src/std/std.sv|
+!s90 -debug|-u|-sv|-s|-work|sv_std|-dirpath|$MODEL_TECH/..|verilog_src/std/std.sv|
+!i113 1
+R12
+n@s@t@d
+Xstd
+!i10b 1
+VWmjPaeP=7F5?QFXzJ>D[Q2
+R1
+r1
+!s85 0
+31
+R2
+!s100 L;0b^2BM8Ge[l>9cOzXjC0
+IWmjPaeP=7F5?QFXzJ>D[Q2
+S1
+R3
+R4
+R25
+R26
+L0 6
+R8
+!s108 1417588115.968949
+R27
+!s90 -debug|-sv|-s|-work|sv_std|-dirpath|$MODEL_TECH/..|verilog_src/std/std.sv|
+!i113 1
+R16

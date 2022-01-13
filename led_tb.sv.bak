@@ -1,0 +1,15 @@
+`timescale 1 ns/1 ps
+
+module Lightning_Testbench;
+    reg clk;
+    wire led_data_out;
+
+    LedLightning UUT (.clk(clk), .led_data_out(led_data_output));
+
+    always begin
+        clk = 1'b1;
+        #12.5; // 80 Mhz clock
+        clk = 1'b0;
+        #12.5;
+     end
+endmodule

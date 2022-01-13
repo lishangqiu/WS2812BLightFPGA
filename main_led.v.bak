@@ -1,0 +1,32 @@
+
+module LedLightning(input wire clk, 
+                    output reg led_data_out);
+
+    parameter num_lights = 5;
+    parameter current_light = 0;
+
+    parameter DATA_CYCLE = 1'b0; 
+    parameter RESET_STAGE = 1'b1;
+
+    parameter cycles_T0H = 'h20;
+    parameter cycles_T0L = 'h44;
+    parameter cycles_T1L = 'h24;
+    parameter cycles_T1H = 'h40;
+    parameter cycles_reset = 'h1130;
+    
+    reg led_data [2:0][2:0][7:0] = '{ '{ 'b1111111, 'b11111111, 'b11111111},'{ 'b1111111, 'b11111111, 'b11111111},'{ 'b1111111, 'b11111111, 'b11111111}};
+    reg machine_state = 1'b0;
+    reg i;
+
+    always @(posedge clk) begin
+        case(machine_state)
+            DATA_CYCLE:
+                begin
+                    for (i=0;i<num_lights;i=i+1) begin
+                        //TODO: get current light data
+                        led_data_out <= i;
+                    end
+                end
+         endcase
+    end
+endmodule
